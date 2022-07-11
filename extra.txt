@@ -1,0 +1,40 @@
+<select id="inputState" className="form-select" defaultValue={registercredentials.state} onChange={onChange} required>
+                            <option selected >Choose...</option>
+                            <option defaultValue={registercredentials.state} >Andaman and Nicobar Islands</option>
+                            <option defaultValue={registercredentials.state}>Andhra Pradesh</option>
+                            <option defaultValue={registercredentials.state}>Arunachal Pradesh</option>
+                            <option defaultValue={registercredentials.state}>Assam</option>
+                            <option defaultValue={registercredentials.state}>Bihar</option>
+                            <option defaultValue={registercredentials.state}>Chandigarh</option>
+                            <option defaultValue={registercredentials.state}>Chhattisgarh</option>
+                            <option defaultValue={registercredentials.state}>Dadra and Nagar Haveli</option>
+                            <option defaultValue={registercredentials.state}>Daman and Diu</option>
+                            <option defaultValue={registercredentials.state}>Delhi</option>
+                            <option defaultValue={registercredentials.state}>Goa</option>
+                            <option defaultValue={registercredentials.state}>Gujarat</option>
+                            <option defaultValue={registercredentials.state}>Haryana</option>
+                            <option defaultValue={registercredentials.state}>Himachal Pradesh</option>
+                            <option defaultValue={registercredentials.state}>Jammu and Kashmir</option>
+                            <option defaultValue={registercredentials.state}>Jharkhand</option>
+                            <option defaultValue={registercredentials.state}>Karnataka</option>
+                            <option defaultValue={registercredentials.state}>Kerala</option>
+                            <option defaultValue={registercredentials.state}>Ladakh</option>
+                            <option defaultValue={registercredentials.state}>Lakshadweep</option>
+                            <option defaultValue={registercredentials.state}>Madhya Pradesh</option>
+                            <option defaultValue={registercredentials.state}>Maharashtra</option>
+                            <option defaultValue={registercredentials.state}>Manipur</option>
+                            <option defaultValue={registercredentials.state}>Meghalaya</option>
+                            <option defaultValue={registercredentials.state}>Mizoram</option>
+                            <option defaultValue={registercredentials.state}>Nagaland</option>
+                            <option defaultValue={registercredentials.state}>Odisha</option>
+                            <option defaultValue={registercredentials.state}>Puducherry</option>
+                            <option defaultValue={registercredentials.state}>Punjab</option>
+                            <option defaultValue={registercredentials.state}>Rajasthan</option>
+                            <option defaultValue={registercredentials.state}>Sikkim</option>
+                            <option defaultValue={registercredentials.state}>Tamil Nadu</option>
+                            <option defaultValue={registercredentials.state}>Telangana</option>
+                            <option defaultValue={registercredentials.state}>Tripura</option>
+                            <option defaultValue={registercredentials.state}>Uttar Pradesh</option>
+                            <option defaultValue={registercredentials.state}>Uttarakhand</option>
+                            <option defaultValue={registercredentials.state}>West Bengal</option>
+                        </select>

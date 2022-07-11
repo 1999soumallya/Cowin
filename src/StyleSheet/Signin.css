@@ -1,0 +1,95 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: garamond;
+  background: none;
+}
+
+img {
+  height: 91vh;
+}
+.Email {
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.form-control1 {
+  position: absolute;
+  top: 35%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: none;
+  text-align: center;
+  color: black;
+  height: 40px;
+}
+.Password {
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.form-control {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: none;
+  text-align: center;
+  color: black;
+}
+ 
+.form-control,
+.form-control1{
+  border: 0;
+  background: white;
+  display: block;
+  margin: 20px auto;
+  text-align: center;
+  border: 2px solid #3498db;
+  padding: 14px, 10px;
+  width: 250px;
+  outline: none;
+  border-radius: 24px;
+  transition: 0.25s;
+}
+.form-control:focus,
+.form-control1:focus {
+  width: 280px;
+  border-color: brown;
+  border-radius: 100px;
+  background: #3498db;
+}
+.container input[type="submit"] {
+  border: 0;
+  background: none;
+  display: block;
+  margin: 20px auto;
+  text-align: center;
+  border: 2px solid greenyellow;
+  padding: 14px, 10px;
+  width: 100px;
+  outline: none;
+  color: white;
+  border-radius: 24px;
+  transition: 0.6s;
+  cursor: pointer;
+}
+.container input[type="submit"]:hover {
+  background: greenyellow;
+}
+
+.container button[type="submit"] {
+  position: absolute;
+  top: 62%;
+  left: 49.5%;
+  transform: translate(-50%, -50%);
+}
+
+.checking p {
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}

@@ -1,0 +1,182 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: garamond;
+  background: none;
+}
+img {
+  height: 91vh;
+}
+.form-label1 {
+  position: absolute;
+  top: 20%;
+  left: 35%;
+  transform: translate(-50%, -50%);
+}
+.email1 {
+  position: absolute;
+  top: 30%;
+  left: 29.5%;
+  transform: translate(-50%, -50%);
+}
+.Password1 {
+  position: absolute;
+  top: 40%;
+  left: 34%;
+  transform: translate(-50%, -50%);
+}
+.form-label4 {
+  position: absolute;
+  top: 50%;
+  left: 34%;
+  transform: translate(-50%, -50%);
+}
+.form-label5 {
+  position: absolute;
+  top: 60%;
+  left: 34%;
+  transform: translate(-50%, -50%);
+}
+.form-label6 {
+  position: absolute;
+  top: 70%;
+  left: 34%;
+  transform: translate(-50%, -50%);
+}
+.form-label7 {
+  position: absolute;
+  top: 80%;
+  left: 34%;
+  transform: translate(-50%, -50%);
+}
+.form-control2 {
+  position: absolute;
+  top: 17%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: none;
+  text-align: center;
+  color: black;
+  height: 40px;
+}
+.form-control3 {
+  position: absolute;
+  top: 27%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: none;
+  text-align: center;
+  color: black;
+  height: 40px;
+}
+.form-control4 {
+  position: absolute;
+  top: 37%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: none;
+  text-align: center;
+  color: black;
+  height: 40px;
+}
+.form-control5 {
+  position: absolute;
+  top: 47%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: none;
+  text-align: center;
+  color: black;
+  height: 40px;
+}
+.form-control6 {
+  position: absolute;
+  top: 57%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: none;
+  text-align: center;
+  color: black;
+  height: 40px;
+}
+.form-control8{
+  position: absolute;
+  top: 67%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: none;
+  text-align: center;
+  color: black;
+  height: 40px;
+}
+.form-control7 {
+  position: absolute;
+  top: 77%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: none;
+  text-align: center;
+  color: black;
+  height: 40px;
+}
+.form-control2,
+.form-control3,
+.form-control4,
+.form-control5,
+.form-control6,
+.form-control7,
+.form-control8 {
+  border: 0;
+  background: white;
+  display: block;
+  margin: 20px auto;
+  text-align: center;
+  border: 2px solid #3498db;
+  padding: 14px, 10px;
+  width: 350px;
+  outline: none;
+  border-radius: 24px;
+  transition: 0.25s;
+}
+.form-control2:focus,
+.form-control3:focus,
+.form-control4:focus,
+.form-control5:focus,
+.form-control6:focus,
+.form-control7:focus,
+.form-control8:focus {
+  width: 380px;
+  border-color: brown;
+  border-radius: 100px;
+  background: #3498db;
+}
+.container input[type="submit"] {
+  border: 0;
+  background: none;
+  display: block;
+  margin: 20px auto;
+  text-align: center;
+  border: 2px solid greenyellow;
+  padding: 14px, 10px;
+  width: 100px;
+  outline: none;
+  color: white;
+  border-radius: 24px;
+  transition: 0.6s;
+  cursor: pointer;
+}
+.container1 input[type="submit"]:hover {
+  background: greenyellow;
+}
+.container1 button[type="submit"] {
+  position: absolute;
+  top: 89%;
+  left: 49.5%;
+  transform: translate(-50%, -50%);
+}
+.container1 p {
+  position: absolute;
+  top: 97%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
